@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+
+*{
+    color: white;
+    
+}
+
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    margin-bottom: 20px;
+}
+.formulario{
+    opacity: 0;
+}
+
+
+.formstyle{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 1vh;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    
+}
+
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.butao{
+    margin-bottom: 1vh;
+}
+input[type=text], input[type=number]{
+    -webkit-appearance: none;
+    color: white;
+    margin: 0;
+    margin-left: 0.5%;
+    border-radius: 3%;
+    border: solid 1px ;
+}
+
+
+
+.form{
+    transition: 1s;
+    display: none;
+}
+
+.form2{
+    display: none;
+}
+
+.form3{
+    display: none;
+}
+
+.showmenu{
+    display: initial;
+}
+
+.rodape{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.php-content{
+    position: relative;
+    bottom: -50px;
+}
